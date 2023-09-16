@@ -1,0 +1,109 @@
+.content {
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.6rem;
+    margin-top: 100px;
+}
+
+h2 {
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+
+.planet h1 {
+    font-size: 2rem;
+}
+
+.planet h1 span {
+    color: gray;
+}
+#planetimg {
+    width: 400px;
+}
+
+.planets {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-transform: capitalize;
+}
+
+.pp {
+    border-bottom: 1px solid gray;
+    padding-bottom: 35px;
+}
+
+.pp p {
+    line-height: 45px;
+}
+
+.last {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#staff ,#tech{
+    height: 335px;
+    border-radius: 10px;
+}
+
+.crew {
+    flex-direction: row-reverse;
+}
+
+.points {
+    display: flex;
+    justify-content: center;
+}
+
+.point {
+    border-radius: 50%;
+    padding: 5px;
+   margin-right: 17px;
+   border: 1px solid white;
+  
+}
+.meetCrew {
+    display: flex;
+    flex-direction: column;
+}
+.crewNum {
+    color: gray;
+}
+
+.text p:first-child {
+   color: gray;
+    text-transform: uppercase;
+}
+
+.nested {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.nest {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.ss {
+    border-radius: 50%;
+    padding: 10px;
+    background-color: transparent;
+    margin-right: 17px;
+    font-size: 1rem;
+    border: 1px solid white;
+    width: 22px;
+    text-align: center;
+}
+
+.opt {
+    cursor: pointer;
+}
